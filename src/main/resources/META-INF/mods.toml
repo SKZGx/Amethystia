@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Amethystia"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="EUGENE, MCreator"
+authors="EUGENE, Hnufelka"
 
 [[dependencies.amethystia]]
     modId="minecraft"
@@ -19,4 +19,10 @@ authors="EUGENE, MCreator"
 
 
 
+[[dependencies.amethystia]]
+    modId="curios_api"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
