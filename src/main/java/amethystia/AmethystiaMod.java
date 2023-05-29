@@ -38,6 +38,10 @@ import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
+import amethystia.init.AmethystiaModTabs;
+import amethystia.init.AmethystiaModItems;
+import amethystia.init.AmethystiaModBlocks;
+
 @Mod("amethystia")
 public class AmethystiaMod {
 	public static final Logger LOGGER = LogManager.getLogger(AmethystiaMod.class);
@@ -45,8 +49,11 @@ public class AmethystiaMod {
 
 	public AmethystiaMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		AmethystiaModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		AmethystiaModBlocks.REGISTRY.register(bus);
+		AmethystiaModItems.REGISTRY.register(bus);
 
 	}
 

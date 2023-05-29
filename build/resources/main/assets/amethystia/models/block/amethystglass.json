@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amethystia:blocks/amethyst_glass",
+    "up": "amethystia:blocks/amethyst_glass",
+    "north": "amethystia:blocks/amethyst_glass",
+    "east": "amethystia:blocks/amethyst_glass",
+    "south": "amethystia:blocks/amethyst_glass",
+    "west": "amethystia:blocks/amethyst_glass",
+    "particle": "amethystia:blocks/amethyst_glass"
+  },
+  "render_type": "cutout"
+}

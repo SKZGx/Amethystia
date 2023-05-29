@@ -13,7 +13,6 @@
     {
       "name": "Amethystbricks",
       "type": "block",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amethystbricks",
@@ -25,36 +24,14 @@
           "src/main/resources/assets/amethystia/models/item/amethystbricks.json"
         ]
       }
-    },
-    {
-      "name": "Amethystglass",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "amethystglass",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/amethystia/models/block/amethystglass.json",
-          "src/main/java/amethystia/block/AmethystglassBlock.java",
-          "src/main/resources/assets/amethystia/blockstates/amethystglass.json",
-          "src/main/resources/assets/amethystia/models/item/amethystglass.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.amethystia.amethystglass": "Amethyst glass",
       "itemGroup.tabamethystia": "Amethystia",
       "block.amethystia.amethystbricks": "Amethyst bricks"
-    },
-    "uk_ua": {
-      "block.amethystia.amethystglass": "Аметистове скло",
-      "itemGroup.tabamethystia": "Аметистія",
-      "block.amethystia.amethystbricks": "Аметистова цегла"
     }
   },
   "foldersRoot": {

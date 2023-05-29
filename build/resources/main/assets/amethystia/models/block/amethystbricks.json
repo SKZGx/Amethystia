@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amethystia:blocks/amethyst_bricks",
+    "up": "amethystia:blocks/amethyst_bricks",
+    "north": "amethystia:blocks/amethyst_bricks",
+    "east": "amethystia:blocks/amethyst_bricks",
+    "south": "amethystia:blocks/amethyst_bricks",
+    "west": "amethystia:blocks/amethyst_bricks",
+    "particle": "amethystia:blocks/amethyst_bricks"
+  },
+  "render_type": "solid"
+}
