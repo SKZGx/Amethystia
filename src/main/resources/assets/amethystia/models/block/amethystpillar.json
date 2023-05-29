@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amethystia:blocks/amethyst_pillar_top",
+    "up": "amethystia:blocks/amethyst_pillar_top",
+    "north": "amethystia:blocks/amethyst_pillar",
+    "east": "amethystia:blocks/amethyst_pillar",
+    "south": "amethystia:blocks/amethyst_pillar",
+    "west": "amethystia:blocks/amethyst_pillar",
+    "particle": "amethystia:blocks/amethyst_pillar_top"
+  },
+  "render_type": "solid"
+}

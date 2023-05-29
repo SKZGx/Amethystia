@@ -9,5 +9,5 @@
     "west": "amethystia:blocks/amethyst_glass",
     "particle": "amethystia:blocks/amethyst_glass"
   },
-  "render_type": "cutout"
+  "render_type": "translucent"
 }

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amethystia:blocks/mossy_amethyst_tiles",
+    "up": "amethystia:blocks/mossy_amethyst_tiles",
+    "north": "amethystia:blocks/mossy_amethyst_tiles",
+    "east": "amethystia:blocks/mossy_amethyst_tiles",
+    "south": "amethystia:blocks/mossy_amethyst_tiles",
+    "west": "amethystia:blocks/mossy_amethyst_tiles",
+    "particle": "amethystia:blocks/mossy_amethyst_tiles"
+  },
+  "render_type": "solid"
+}

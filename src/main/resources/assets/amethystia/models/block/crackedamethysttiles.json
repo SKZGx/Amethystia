@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "amethystia:blocks/cracked_amethyst_tiles",
+    "up": "amethystia:blocks/cracked_amethyst_tiles",
+    "north": "amethystia:blocks/cracked_amethyst_tiles",
+    "east": "amethystia:blocks/cracked_amethyst_tiles",
+    "south": "amethystia:blocks/cracked_amethyst_tiles",
+    "west": "amethystia:blocks/cracked_amethyst_tiles",
+    "particle": "amethystia:blocks/cracked_amethyst_tiles"
+  },
+  "render_type": "solid"
+}

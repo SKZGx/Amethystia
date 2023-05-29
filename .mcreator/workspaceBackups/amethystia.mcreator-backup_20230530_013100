@@ -1,0 +1,166 @@
+{
+  "mod_elements": [
+    {
+      "name": "Amethystia",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystia",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Amethystbricks",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/blockstates/amethystbricks.json",
+          "src/main/java/amethystia/block/AmethystbricksBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethystbricks.json",
+          "src/main/resources/assets/amethystia/models/item/amethystbricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Amethystglass",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystglass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethystglass.json",
+          "src/main/java/amethystia/block/AmethystglassBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/amethystglass.json",
+          "src/main/resources/assets/amethystia/models/item/amethystglass.json"
+        ]
+      }
+    },
+    {
+      "name": "Amethystlamp",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystlamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/amethystlamp.json",
+          "src/main/resources/assets/amethystia/blockstates/amethystlamp.json",
+          "src/main/java/amethystia/block/AmethystlampBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethystlamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Amethystpillar",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystpillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/amethystpillar.json",
+          "src/main/java/amethystia/block/AmethystpillarBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethystpillar.json",
+          "src/main/resources/assets/amethystia/blockstates/amethystpillar.json"
+        ]
+      }
+    },
+    {
+      "name": "Amethysttiles",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethysttiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/blockstates/amethysttiles.json",
+          "src/main/java/amethystia/block/AmethysttilesBlock.java",
+          "src/main/resources/assets/amethystia/models/item/amethysttiles.json",
+          "src/main/resources/assets/amethystia/models/block/amethysttiles.json"
+        ]
+      }
+    },
+    {
+      "name": "Crackedamethysttiles",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackedamethysttiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/crackedamethysttiles.json",
+          "src/main/resources/assets/amethystia/models/block/crackedamethysttiles.json",
+          "src/main/java/amethystia/block/CrackedamethysttilesBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/crackedamethysttiles.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.amethystia.amethystpillar": "Amethyst pillar",
+      "block.amethystia.amethystglass": "Amethyst glass",
+      "block.amethystia.amethysttiles": "Amethyst tiles",
+      "block.amethystia.amethystlamp": " amethyst lamp",
+      "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
+      "itemGroup.tabamethystia": "Amethystia",
+      "block.amethystia.amethystbricks": "Amethyst bricks"
+    },
+    "uk_ua": {
+      "block.amethystia.amethystpillar": "Amethyst pillar",
+      "block.amethystia.amethystglass": "Аметистове скло",
+      "block.amethystia.amethysttiles": "Amethyst tiles",
+      "block.amethystia.amethystlamp": "Amethyst lamp",
+      "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
+      "itemGroup.tabamethystia": "Аметистія",
+      "block.amethystia.amethystbricks": "Аметистова цегла"
+    },
+    "cs_cz": {
+      "block.amethystia.amethystpillar": "Amethyst pillar",
+      "block.amethystia.amethystglass": "Amethyst glass",
+      "block.amethystia.amethysttiles": "Amethyst tiles",
+      "block.amethystia.amethystlamp": "Amethyst lamp",
+      "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
+      "itemGroup.tabamethystia": "Amethystia",
+      "block.amethystia.amethystbricks": "Amethyst bricks"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "amethystia",
+    "modName": "Amethystia",
+    "version": "1.0.0",
+    "author": "EUGENE, Hnufelka",
+    "websiteURL": "https://discord.gg/NTtMzrbZ",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Mod for u",
+    "modElementsPackage": "amethystia",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
