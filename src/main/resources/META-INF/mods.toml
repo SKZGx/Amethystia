@@ -25,4 +25,10 @@ authors="EUGENE, Hnufelka"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.amethystia]]
+    modId="allmods"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

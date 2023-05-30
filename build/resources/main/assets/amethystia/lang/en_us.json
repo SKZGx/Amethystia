@@ -3,11 +3,11 @@
   "block.amethystia.polishedamethyst": "Polished Amethyst",
   "block.amethystia.crackedpolishedamethyst": "Cracked Polished Amethyst",
   "block.amethystia.amethystglass": "Amethyst Glass",
+  "block.amethystia.amethyst_bricks": "Amethyst Bricks",
   "block.amethystia.amethysttiles": "Amethyst Tiles",
   "block.amethystia.mossyamethystbricks": "Mossy Amethyst Bricks",
   "block.amethystia.amethystlamp": "Amethyst Lamp",
   "block.amethystia.mossyamethysttiles": "Mossy Amethyst Tiles",
   "block.amethystia.crackedamethysttiles": "Cracked Amethyst Tiles",
-  "itemGroup.tabamethystia": "Amethystia",
-  "block.amethystia.amethystbricks": "Amethyst Bricks"
+  "itemGroup.tabamethystia": "Amethystia"
 }

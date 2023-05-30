@@ -16,13 +16,13 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethystbricks",
+      "registry_name": "amethyst_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/blockstates/amethystbricks.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_bricks.json",
           "src/main/java/amethystia/block/AmethystbricksBlock.java",
-          "src/main/resources/assets/amethystia/models/block/amethystbricks.json",
-          "src/main/resources/assets/amethystia/models/item/amethystbricks.json"
+          "src/main/resources/assets/amethystia/models/item/amethyst_bricks.json"
         ]
       }
     },
@@ -105,42 +105,123 @@
           "src/main/resources/assets/amethystia/blockstates/crackedamethysttiles.json"
         ]
       }
+    },
+    {
+      "name": "Polishedamethyst",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishedamethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/polishedamethyst.json",
+          "src/main/resources/assets/amethystia/models/item/polishedamethyst.json",
+          "src/main/resources/assets/amethystia/blockstates/polishedamethyst.json",
+          "src/main/java/amethystia/block/PolishedamethystBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Crackedpolishedamethyst",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crackedpolishedamethyst",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/crackedpolishedamethyst.json",
+          "src/main/java/amethystia/block/CrackedpolishedamethystBlock.java",
+          "src/main/resources/assets/amethystia/models/item/crackedpolishedamethyst.json",
+          "src/main/resources/assets/amethystia/blockstates/crackedpolishedamethyst.json"
+        ]
+      }
+    },
+    {
+      "name": "Mossyamethystbricks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossyamethystbricks",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/MossyamethystbricksBlock.java",
+          "src/main/resources/assets/amethystia/models/item/mossyamethystbricks.json",
+          "src/main/resources/assets/amethystia/models/block/mossyamethystbricks.json",
+          "src/main/resources/assets/amethystia/blockstates/mossyamethystbricks.json"
+        ]
+      }
+    },
+    {
+      "name": "Mossyamethysttiles",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossyamethysttiles",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/MossyamethysttilesBlock.java",
+          "src/main/resources/assets/amethystia/models/item/mossyamethysttiles.json",
+          "src/main/resources/assets/amethystia/blockstates/mossyamethysttiles.json",
+          "src/main/resources/assets/amethystia/models/block/mossyamethysttiles.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.amethystia.amethystpillar": "Amethyst pillar",
-      "block.amethystia.amethystglass": "Amethyst glass",
-      "block.amethystia.amethysttiles": "Amethyst tiles",
-      "block.amethystia.amethystlamp": " amethyst lamp",
-      "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
-      "itemGroup.tabamethystia": "Amethystia",
-      "block.amethystia.amethystbricks": "Amethyst bricks"
+      "block.amethystia.amethystpillar": "Amethyst Pillar",
+      "block.amethystia.polishedamethyst": "Polished Amethyst",
+      "block.amethystia.crackedpolishedamethyst": "Cracked Polished Amethyst",
+      "block.amethystia.amethystglass": "Amethyst Glass",
+      "block.amethystia.amethyst_bricks": "Amethyst Bricks",
+      "block.amethystia.amethysttiles": "Amethyst Tiles",
+      "block.amethystia.mossyamethystbricks": "Mossy Amethyst Bricks",
+      "block.amethystia.amethystlamp": "Amethyst Lamp",
+      "block.amethystia.mossyamethysttiles": "Mossy Amethyst Tiles",
+      "block.amethystia.crackedamethysttiles": "Cracked Amethyst Tiles",
+      "itemGroup.tabamethystia": "Amethystia"
     },
     "uk_ua": {
       "block.amethystia.amethystpillar": "Amethyst pillar",
+      "block.amethystia.polishedamethyst": "Polished amethyst",
+      "block.amethystia.crackedpolishedamethyst": "Cracked polished amethyst",
       "block.amethystia.amethystglass": "Аметистове скло",
+      "block.amethystia.amethyst_bricks": "Amethyst Bricks",
       "block.amethystia.amethysttiles": "Amethyst tiles",
+      "block.amethystia.mossyamethystbricks": "Mossy amethyst bricks",
       "block.amethystia.amethystlamp": "Amethyst lamp",
+      "block.amethystia.mossyamethysttiles": "Mossy amethyst tiles",
       "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
-      "itemGroup.tabamethystia": "Аметистія",
-      "block.amethystia.amethystbricks": "Аметистова цегла"
+      "itemGroup.tabamethystia": "Аметистія"
     },
     "cs_cz": {
       "block.amethystia.amethystpillar": "Amethyst pillar",
+      "block.amethystia.polishedamethyst": "Polished amethyst",
+      "block.amethystia.crackedpolishedamethyst": "Cracked polished amethyst",
       "block.amethystia.amethystglass": "Amethyst glass",
+      "block.amethystia.amethyst_bricks": "Amethyst Bricks",
       "block.amethystia.amethysttiles": "Amethyst tiles",
+      "block.amethystia.mossyamethystbricks": "Mossy amethyst bricks",
       "block.amethystia.amethystlamp": "Amethyst lamp",
+      "block.amethystia.mossyamethysttiles": "Mossy amethyst tiles",
       "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
-      "itemGroup.tabamethystia": "Amethystia",
-      "block.amethystia.amethystbricks": "Amethyst bricks"
+      "itemGroup.tabamethystia": "Amethystia"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "blocks",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "amethystia",
@@ -155,7 +236,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "curios_api"
+      "curios_api",
+      "allmods"
     ],
     "currentGenerator": "forge-1.19.2",
     "credits": "Mod for u",

@@ -18,7 +18,7 @@ import amethystia.AmethystiaMod;
 public class AmethystiaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, AmethystiaMod.MODID);
 	public static final RegistryObject<Item> AMETHYSTGLASS = block(AmethystiaModBlocks.AMETHYSTGLASS, AmethystiaModTabs.TAB_AMETHYSTIA);
-	public static final RegistryObject<Item> AMETHYSTBRICKS = block(AmethystiaModBlocks.AMETHYSTBRICKS, AmethystiaModTabs.TAB_AMETHYSTIA);
+	public static final RegistryObject<Item> AMETHYST_BRICKS = block(AmethystiaModBlocks.AMETHYST_BRICKS, AmethystiaModTabs.TAB_AMETHYSTIA);
 	public static final RegistryObject<Item> AMETHYSTLAMP = block(AmethystiaModBlocks.AMETHYSTLAMP, AmethystiaModTabs.TAB_AMETHYSTIA);
 	public static final RegistryObject<Item> AMETHYSTPILLAR = block(AmethystiaModBlocks.AMETHYSTPILLAR, AmethystiaModTabs.TAB_AMETHYSTIA);
 	public static final RegistryObject<Item> AMETHYSTTILES = block(AmethystiaModBlocks.AMETHYSTTILES, AmethystiaModTabs.TAB_AMETHYSTIA);

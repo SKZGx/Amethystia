@@ -26,7 +26,7 @@ import amethystia.AmethystiaMod;
 public class AmethystiaModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, AmethystiaMod.MODID);
 	public static final RegistryObject<Block> AMETHYSTGLASS = REGISTRY.register("amethystglass", () -> new AmethystglassBlock());
-	public static final RegistryObject<Block> AMETHYSTBRICKS = REGISTRY.register("amethystbricks", () -> new AmethystbricksBlock());
+	public static final RegistryObject<Block> AMETHYST_BRICKS = REGISTRY.register("amethyst_bricks", () -> new AmethystbricksBlock());
 	public static final RegistryObject<Block> AMETHYSTLAMP = REGISTRY.register("amethystlamp", () -> new AmethystlampBlock());
 	public static final RegistryObject<Block> AMETHYSTPILLAR = REGISTRY.register("amethystpillar", () -> new AmethystpillarBlock());
 	public static final RegistryObject<Block> AMETHYSTTILES = REGISTRY.register("amethysttiles", () -> new AmethysttilesBlock());

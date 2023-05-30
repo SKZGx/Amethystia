@@ -1,5 +1,5 @@
 {
-  "parent": "amethystia:block/amethystbricks",
+  "parent": "amethystia:block/amethyst_bricks",
   "display": {
     "thirdperson": {
       "rotation": [

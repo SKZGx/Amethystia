@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "amethystia:block/amethystlamp",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "amethystia:block/amethystlamp"
+    },
+    "axis=z": {
+      "model": "amethystia:block/amethystlamp",
+      "x": 90
     }
   }
 }
