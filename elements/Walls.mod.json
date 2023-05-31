@@ -1,0 +1,42 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:AmethystBricksWall"
+      },
+      {
+        "value": "CUSTOM:AmethystTilesWall"
+      },
+      {
+        "value": "CUSTOM:CrackedAmethystTilesWall"
+      },
+      {
+        "value": "CUSTOM:CrackedPolishedAmethystWall"
+      },
+      {
+        "value": "CUSTOM:MossyAmethystBricksWall"
+      },
+      {
+        "value": "CUSTOM:MossyAmethystTilesWall"
+      },
+      {
+        "value": "CUSTOM:PolishedAmethystWall"
+      },
+      {
+        "value": "CUSTOM:AmethystPillarWall"
+      },
+      {
+        "value": "CUSTOM:AmethystBlockWall"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "walls",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "amethystia:cracked_polished_amethyst_wall",
+    "amethystia:amethyst_block_wall",
+    "amethystia:amethyst_bricks_wall",
+    "amethystia:cracked_amethyst_tiles_wall",
+    "amethystia:mossy_amethyst_bricks_wall",
+    "amethystia:polished_amethyst_wall",
+    "amethystia:amethyst_pillar_wall",
+    "amethystia:amethyst_tiles_wall",
+    "amethystia:mossy_amethyst_tiles_wall"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "amethystia:blocks/amethyst_tiles",
+    "particle": "amethystia:blocks/amethyst_tiles"
+  },
+  "render_type": "solid"
+}

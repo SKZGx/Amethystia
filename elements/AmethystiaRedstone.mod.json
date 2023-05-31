@@ -1,0 +1,11 @@
+{
+  "_fv": 39,
+  "_type": "tab",
+  "definition": {
+    "name": "Amethystia Redstone",
+    "icon": {
+      "value": "CUSTOM:AmethystBlockPressurePlate"
+    },
+    "showSearch": false
+  }
+}

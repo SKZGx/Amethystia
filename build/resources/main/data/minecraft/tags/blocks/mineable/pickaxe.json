@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "amethystia:amethystglass"
+    "amethystia:amethyst_glass",
+    "amethystia:amethyst_glass_pane"
   ]
 }

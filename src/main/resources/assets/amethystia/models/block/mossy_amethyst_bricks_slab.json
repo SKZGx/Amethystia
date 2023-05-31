@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "amethystia:blocks/mossy_amethyst_bricks",
+    "top": "amethystia:blocks/mossy_amethyst_bricks",
+    "side": "amethystia:blocks/mossy_amethyst_bricks"
+  },
+  "render_type": "solid"
+}

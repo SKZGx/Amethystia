@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "amethystia:blocks/mossy_amethyst_tiles",
+    "top": "amethystia:blocks/mossy_amethyst_tiles",
+    "side": "amethystia:blocks/mossy_amethyst_tiles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "amethystia:blocks/amethyst_tiles",
+    "top": "amethystia:blocks/amethyst_tiles",
+    "side": "amethystia:blocks/amethyst_tiles"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "amethystia:blocks/polished_amethyst"
+  },
+  "render_type": "solid"
+}

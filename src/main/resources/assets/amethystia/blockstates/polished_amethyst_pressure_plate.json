@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "amethystia:block/polished_amethyst_pressure_plate"
+    },
+    "powered=true": {
+      "model": "amethystia:block/polished_amethyst_pressure_plate_down"
+    }
+  }
+}

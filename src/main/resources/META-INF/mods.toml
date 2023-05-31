@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Amethystia"
 credits="Mod for u"
 displayURL="https://discord.gg/NTtMzrbZ"
-authors="EUGENE, Hnufelka"
+authors="MEGATREX4, hnufelka"
 
 [[dependencies.amethystia]]
     modId="minecraft"

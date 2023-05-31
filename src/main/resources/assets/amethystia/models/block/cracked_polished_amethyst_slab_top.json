@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "amethystia:blocks/cracked_polished_amethyst",
+    "top": "amethystia:blocks/cracked_polished_amethyst",
+    "side": "amethystia:blocks/cracked_polished_amethyst"
+  },
+  "render_type": "solid"
+}

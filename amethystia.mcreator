@@ -3,9 +3,10 @@
     {
       "name": "Amethystia",
       "type": "tab",
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethystia",
+      "registry_name": "amethystia_blocks",
       "metadata": {
         "files": []
       }
@@ -32,13 +33,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethystglass",
+      "registry_name": "amethyst_glass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/models/block/amethystglass.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_glass.json",
           "src/main/java/amethystia/block/AmethystglassBlock.java",
-          "src/main/resources/assets/amethystia/blockstates/amethystglass.json",
-          "src/main/resources/assets/amethystia/models/item/amethystglass.json"
+          "src/main/resources/assets/amethystia/models/block/amethyst_glass.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_glass.json"
         ]
       }
     },
@@ -48,13 +49,13 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethystlamp",
+      "registry_name": "amethyst_lamp",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/models/item/amethystlamp.json",
-          "src/main/resources/assets/amethystia/blockstates/amethystlamp.json",
-          "src/main/java/amethystia/block/AmethystlampBlock.java",
-          "src/main/resources/assets/amethystia/models/block/amethystlamp.json"
+          "src/main/resources/assets/amethystia/models/item/amethyst_lamp.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_lamp.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_lamp.json",
+          "src/main/java/amethystia/block/AmethystlampBlock.java"
         ]
       }
     },
@@ -64,13 +65,13 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethystpillar",
+      "registry_name": "amethyst_pillar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/models/item/amethystpillar.json",
           "src/main/java/amethystia/block/AmethystpillarBlock.java",
-          "src/main/resources/assets/amethystia/models/block/amethystpillar.json",
-          "src/main/resources/assets/amethystia/blockstates/amethystpillar.json"
+          "src/main/resources/assets/amethystia/models/item/amethyst_pillar.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_pillar.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar.json"
         ]
       }
     },
@@ -80,13 +81,13 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethysttiles",
+      "registry_name": "amethyst_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/blockstates/amethysttiles.json",
           "src/main/java/amethystia/block/AmethysttilesBlock.java",
-          "src/main/resources/assets/amethystia/models/item/amethysttiles.json",
-          "src/main/resources/assets/amethystia/models/block/amethysttiles.json"
+          "src/main/resources/assets/amethystia/blockstates/amethyst_tiles.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_tiles.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles.json"
         ]
       }
     },
@@ -96,13 +97,13 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crackedamethysttiles",
+      "registry_name": "cracked_amethyst_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/models/item/crackedamethysttiles.json",
-          "src/main/resources/assets/amethystia/models/block/crackedamethysttiles.json",
           "src/main/java/amethystia/block/CrackedamethysttilesBlock.java",
-          "src/main/resources/assets/amethystia/blockstates/crackedamethysttiles.json"
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles.json",
+          "src/main/resources/assets/amethystia/models/item/cracked_amethyst_tiles.json",
+          "src/main/resources/assets/amethystia/blockstates/cracked_amethyst_tiles.json"
         ]
       }
     },
@@ -112,13 +113,13 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "polishedamethyst",
+      "registry_name": "polished_amethyst",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/models/block/polishedamethyst.json",
-          "src/main/resources/assets/amethystia/models/item/polishedamethyst.json",
-          "src/main/resources/assets/amethystia/blockstates/polishedamethyst.json",
-          "src/main/java/amethystia/block/PolishedamethystBlock.java"
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst.json",
+          "src/main/resources/assets/amethystia/models/item/polished_amethyst.json",
+          "src/main/java/amethystia/block/PolishedamethystBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/polished_amethyst.json"
         ]
       }
     },
@@ -128,13 +129,13 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crackedpolishedamethyst",
+      "registry_name": "cracked_polished_amethyst",
       "metadata": {
         "files": [
-          "src/main/resources/assets/amethystia/models/block/crackedpolishedamethyst.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst.json",
+          "src/main/resources/assets/amethystia/blockstates/cracked_polished_amethyst.json",
           "src/main/java/amethystia/block/CrackedpolishedamethystBlock.java",
-          "src/main/resources/assets/amethystia/models/item/crackedpolishedamethyst.json",
-          "src/main/resources/assets/amethystia/blockstates/crackedpolishedamethyst.json"
+          "src/main/resources/assets/amethystia/models/item/cracked_polished_amethyst.json"
         ]
       }
     },
@@ -144,13 +145,13 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mossyamethystbricks",
+      "registry_name": "mossy_amethyst_bricks",
       "metadata": {
         "files": [
           "src/main/java/amethystia/block/MossyamethystbricksBlock.java",
-          "src/main/resources/assets/amethystia/models/item/mossyamethystbricks.json",
-          "src/main/resources/assets/amethystia/models/block/mossyamethystbricks.json",
-          "src/main/resources/assets/amethystia/blockstates/mossyamethystbricks.json"
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_bricks.json",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_bricks.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks.json"
         ]
       }
     },
@@ -160,14 +161,738 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mossyamethysttiles",
+      "registry_name": "mossy_amethyst_tiles",
       "metadata": {
         "files": [
           "src/main/java/amethystia/block/MossyamethysttilesBlock.java",
-          "src/main/resources/assets/amethystia/models/item/mossyamethysttiles.json",
-          "src/main/resources/assets/amethystia/blockstates/mossyamethysttiles.json",
-          "src/main/resources/assets/amethystia/models/block/mossyamethysttiles.json"
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_tiles.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles.json",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_tiles.json"
         ]
+      }
+    },
+    {
+      "name": "AmethystBricksStairs",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/AmethystBricksStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_stairs_inner.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_bricks_stairs.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_bricks_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_stairs_outer.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBricksSlab",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_slab_top.json",
+          "src/main/java/amethystia/block/AmethystBricksSlabBlock.java",
+          "src/main/resources/assets/amethystia/models/item/amethyst_bricks_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_slab_full.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_bricks_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBricksWall",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_bricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/blockstates/amethyst_bricks_wall.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_bricks_wall.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_wall.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_wall_post.json",
+          "src/main/java/amethystia/block/AmethystBricksWallBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_wall_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_wall_side_tall.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystTilesStairs",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_stairs.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_tiles_stairs.json",
+          "src/main/java/amethystia/block/AmethystTilesStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_stairs_inner.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_tiles_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystTilesSlab",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_slab_full.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_tiles_slab.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_tiles_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_slab_top.json",
+          "src/main/java/amethystia/block/AmethystTilesSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystTilesWall",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tiles_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_wall_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_wall_post.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_wall_side_tall.json",
+          "src/main/java/amethystia/block/AmethystTilesWallBlock.java",
+          "src/main/resources/assets/amethystia/models/item/amethyst_tiles_wall.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_wall.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_tiles_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPillarStairs",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pillar_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/amethyst_pillar_stairs.json",
+          "src/main/java/amethystia/block/AmethystPillarStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_stairs_outer.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_stairs_inner.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_pillar_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPillarSlab",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pillar_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_slab_top.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_pillar_slab.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_pillar_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_slab_full.json",
+          "src/main/java/amethystia/block/AmethystPillarSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CrackedAmethystTilesStairs",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_amethyst_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/cracked_amethyst_tiles_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_stairs.json",
+          "src/main/java/amethystia/block/CrackedAmethystTilesStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_stairs_inner.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_stairs_outer.json",
+          "src/main/resources/assets/amethystia/blockstates/cracked_amethyst_tiles_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedAmethystTilesSlab",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_amethyst_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/cracked_amethyst_tiles_slab.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_slab.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_slab_full.json",
+          "src/main/java/amethystia/block/CrackedAmethystTilesSlabBlock.java",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_slab_top.json",
+          "src/main/resources/assets/amethystia/blockstates/cracked_amethyst_tiles_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedAmethystTilesWall",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_amethyst_tiles_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_wall_side_tall.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_wall_post.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_wall_inventory.json",
+          "src/main/java/amethystia/block/CrackedAmethystTilesWallBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/cracked_amethyst_tiles_wall.json",
+          "src/main/resources/assets/amethystia/models/item/cracked_amethyst_tiles_wall.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_amethyst_tiles_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedPolishedAmethystStairs",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_polished_amethyst_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_stairs_inner.json",
+          "src/main/resources/assets/amethystia/blockstates/cracked_polished_amethyst_stairs.json",
+          "src/main/java/amethystia/block/CrackedPolishedAmethystStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/item/cracked_polished_amethyst_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedPolishedAmethystSlab",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_polished_amethyst_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/CrackedPolishedAmethystSlabBlock.java",
+          "src/main/resources/assets/amethystia/models/item/cracked_polished_amethyst_slab.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_slab.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_slab_full.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_slab_top.json",
+          "src/main/resources/assets/amethystia/blockstates/cracked_polished_amethyst_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CrackedPolishedAmethystWall",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_polished_amethyst_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/cracked_polished_amethyst_wall.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_wall.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_wall_side_tall.json",
+          "src/main/resources/assets/amethystia/blockstates/cracked_polished_amethyst_wall.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_wall_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/cracked_polished_amethyst_wall_post.json",
+          "src/main/java/amethystia/block/CrackedPolishedAmethystWallBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MossyAmethystBricksStairs",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_amethyst_bricks_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_stairs_outer.json",
+          "src/main/java/amethystia/block/MossyAmethystBricksStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_stairs_inner.json",
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_bricks_stairs.json",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_bricks_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "MossyAmethystBricksSlab",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_amethyst_bricks_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_slab_full.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_slab.json",
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_bricks_slab.json",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_bricks_slab.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_slab_top.json",
+          "src/main/java/amethystia/block/MossyAmethystBricksSlabBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MossyAmethystBricksWall",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_amethyst_bricks_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_wall_inventory.json",
+          "src/main/java/amethystia/block/MossyAmethystBricksWallBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_bricks_wall.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_wall_post.json",
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_bricks_wall.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_wall_side_tall.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_bricks_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "MossyAmethystTilesStairs",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_amethyst_tiles_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/MossyAmethystTilesStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_stairs_inner.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_stairs_outer.json",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_tiles_stairs.json",
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_tiles_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "MossyAmethystTilesSlab",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_amethyst_tiles_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/MossyAmethystTilesSlabBlock.java",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_slab.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_slab_top.json",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_tiles_slab.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_slab_full.json",
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_tiles_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "MossyAmethystTilesWall",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mossy_amethyst_tiles_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_wall_inventory.json",
+          "src/main/resources/assets/amethystia/models/item/mossy_amethyst_tiles_wall.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_wall_side_tall.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_wall_post.json",
+          "src/main/java/amethystia/block/MossyAmethystTilesWallBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/mossy_amethyst_tiles_wall.json",
+          "src/main/resources/assets/amethystia/models/block/mossy_amethyst_tiles_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAmethystStairs",
+      "type": "block",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_amethyst_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/PolishedAmethystStairsBlock.java",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_stairs_inner.json",
+          "src/main/resources/assets/amethystia/models/item/polished_amethyst_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_stairs_outer.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_stairs.json",
+          "src/main/resources/assets/amethystia/blockstates/polished_amethyst_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAmethystSlab",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_amethyst_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_slab_full.json",
+          "src/main/resources/assets/amethystia/models/item/polished_amethyst_slab.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_slab.json",
+          "src/main/java/amethystia/block/PolishedAmethystSlabBlock.java",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_slab_top.json",
+          "src/main/resources/assets/amethystia/blockstates/polished_amethyst_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAmethystWall",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_amethyst_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_wall_post.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_wall.json",
+          "src/main/resources/assets/amethystia/blockstates/polished_amethyst_wall.json",
+          "src/main/resources/assets/amethystia/models/item/polished_amethyst_wall.json",
+          "src/main/java/amethystia/block/PolishedAmethystWallBlock.java",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_wall_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_wall_side_tall.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPillarWall",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pillar_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/blockstates/amethyst_pillar_wall.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_wall_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_wall_side_tall.json",
+          "src/main/java/amethystia/block/AmethystPillarWallBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_wall_post.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_pillar_wall.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "Walls",
+      "type": "tag",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walls",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/walls.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBlockStairs",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/amethyst_block_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_stairs_inner.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_stairs.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_stairs_outer.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_block_stairs.json",
+          "src/main/java/amethystia/block/AmethystBlockStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBlockSlab",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/blockstates/amethyst_block_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_slab.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_slab_full.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_slab_top.json",
+          "src/main/java/amethystia/block/AmethystBlockSlabBlock.java",
+          "src/main/resources/assets/amethystia/models/item/amethyst_block_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBlockWall",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_wall.json",
+          "src/main/java/amethystia/block/AmethystBlockWallBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_wall_post.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_block_wall.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_block_wall.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_wall_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_wall_side_tall.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystGlassPane",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_glass_pane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/amethyst_glass_pane.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_glass_pane_side.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_glass_pane_noside.json",
+          "src/main/java/amethystia/block/AmethystGlassPaneBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_glass_pane_noside_alt.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_glass_pane_side_alt.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_glass_pane_post.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_glass_pane.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBlockButton",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_button.json",
+          "src/main/java/amethystia/block/AmethystBlockButtonBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_block_button.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_button_inventory.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_block_button.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBlockPressurePlate",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_block_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/AmethystBlockPressurePlateBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_block_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_pressure_plate_down.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_block_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_block_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBricksButton",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_bricks_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/amethyst_bricks_button.json",
+          "src/main/java/amethystia/block/AmethystBricksButtonBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_button.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_bricks_button.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_button_pressed.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_button_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystBricksPressurePlate",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_bricks_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/AmethystBricksPressurePlateBlock.java",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_bricks_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_bricks_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_bricks_pressure_plate_down.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPillarButton",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pillar_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_button.json",
+          "src/main/java/amethystia/block/AmethystPillarButtonBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_button_inventory.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_pillar_button.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_button_pressed.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_pillar_button.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystPillarPressurePlate",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pillar_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/AmethystPillarPressurePlateBlock.java",
+          "src/main/resources/assets/amethystia/models/item/amethyst_pillar_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_pillar_pressure_plate_down.json",
+          "src/main/resources/assets/amethystia/blockstates/amethyst_pillar_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystTilesButton",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tiles_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/blockstates/amethyst_tiles_button.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_button_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_button_pressed.json",
+          "src/main/java/amethystia/block/AmethystTilesButtonBlock.java",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_button.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_tiles_button.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystTilesPressurePlate",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_tiles_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/blockstates/amethyst_tiles_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/item/amethyst_tiles_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/amethyst_tiles_pressure_plate_down.json",
+          "src/main/java/amethystia/block/AmethystTilesPressurePlateBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAmethystButton",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_amethyst_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/amethystia/models/item/polished_amethyst_button.json",
+          "src/main/java/amethystia/block/PolishedAmethystButtonBlock.java",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_button.json",
+          "src/main/resources/assets/amethystia/blockstates/polished_amethyst_button.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_button_inventory.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "PolishedAmethystPressurePlate",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_amethyst_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/amethystia/block/PolishedAmethystPressurePlateBlock.java",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_pressure_plate_down.json",
+          "src/main/resources/assets/amethystia/blockstates/polished_amethyst_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/item/polished_amethyst_pressure_plate.json",
+          "src/main/resources/assets/amethystia/models/block/polished_amethyst_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "AmethystiaRedstone",
+      "type": "tab",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystia_redstone",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AmethystiaItems",
+      "type": "tab",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystia_items",
+      "metadata": {
+        "files": []
       }
     }
   ],
@@ -175,43 +900,163 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.amethystia.amethystpillar": "Amethyst Pillar",
-      "block.amethystia.polishedamethyst": "Polished Amethyst",
-      "block.amethystia.crackedpolishedamethyst": "Cracked Polished Amethyst",
-      "block.amethystia.amethystglass": "Amethyst Glass",
+      "block.amethystia.amethyst_pillar_wall": "Amethyst Pillar Wall",
+      "block.amethystia.mossy_amethyst_bricks": "Mossy Amethyst Bricks",
+      "block.amethystia.amethyst_glass": "Amethyst Glass",
+      "itemGroup.tabamethystia_items": "Amethystia Items",
+      "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
+      "block.amethystia.amethyst_pillar_stairs": "Amethyst Pillar Stairs",
+      "block.amethystia.amethyst_block_pressure_plate": "Amethyst Block Pressure Plate",
+      "block.amethystia.cracked_polished_amethyst_slab": "Cracked Polished Amethyst Slab",
+      "block.amethystia.mossy_amethyst_tiles": "Mossy Amethyst Tiles",
+      "itemGroup.tabamethystia_redstone": "Amethystia Redstone",
+      "block.amethystia.amethyst_tiles_stairs": "Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_tiles_pressure_plate": "Amethyst Tiles Pressure Plate",
+      "block.amethystia.polished_amethyst_button": "Polished Amethyst Button",
+      "block.amethystia.amethyst_pillar": "Amethyst Pillar",
+      "block.amethystia.amethyst_pillar_slab": "Amethyst Pillar Slab",
+      "block.amethystia.amethyst_bricks_stairs": "Amethyst Bricks Stairs",
+      "block.amethystia.cracked_polished_amethyst_wall": "Cracked Polished Amethyst Wall",
+      "block.amethystia.amethyst_tiles_button": "Amethyst Tiles Button",
+      "block.amethystia.mossy_amethyst_bricks_slab": "Mossy Amethyst Bricks Slab",
       "block.amethystia.amethyst_bricks": "Amethyst Bricks",
-      "block.amethystia.amethysttiles": "Amethyst Tiles",
-      "block.amethystia.mossyamethystbricks": "Mossy Amethyst Bricks",
-      "block.amethystia.amethystlamp": "Amethyst Lamp",
-      "block.amethystia.mossyamethysttiles": "Mossy Amethyst Tiles",
-      "block.amethystia.crackedamethysttiles": "Cracked Amethyst Tiles",
-      "itemGroup.tabamethystia": "Amethystia"
+      "block.amethystia.cracked_amethyst_tiles_wall": "Cracked Amethyst Tiles Wall",
+      "block.amethystia.amethyst_tiles_wall": "Amethyst Tiles Wall",
+      "block.amethystia.mossy_amethyst_bricks_wall": "Mossy Amethyst Bricks Wall",
+      "block.amethystia.mossy_amethyst_tiles_wall": "Mossy Amethyst Tiles Wall",
+      "block.amethystia.amethyst_block_stairs": "Amethyst Block Stairs",
+      "block.amethystia.polished_amethyst": "Polished Amethyst",
+      "block.amethystia.polished_amethyst_pressure_plate": "Polished Amethyst Pressure Plate",
+      "block.amethystia.amethyst_pillar_pressure_plate": "Amethyst Pillar Pressure Plate",
+      "block.amethystia.amethyst_block_button": "Amethyst Block Button",
+      "block.amethystia.cracked_polished_amethyst_stairs": "Cracked Polished Amethyst Stairs",
+      "block.amethystia.polished_amethyst_stairs": "Polished Amethyst Stairs",
+      "block.amethystia.amethyst_lamp": "Amethyst Lamp",
+      "block.amethystia.amethyst_block_slab": "Amethyst Block Slab",
+      "block.amethystia.polished_amethyst_wall": "Polished Amethyst Wall",
+      "block.amethystia.mossy_amethyst_tiles_stairs": "Mossy Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_bricks_wall": "Amethyst Bricks Wall",
+      "block.amethystia.amethyst_glass_pane": "Amethyst Glass Pane",
+      "block.amethystia.amethyst_bricks_button": "Amethyst Bricks Button",
+      "block.amethystia.cracked_polished_amethyst": "Cracked Polished Amethyst",
+      "block.amethystia.amethyst_pillar_button": "Amethyst Pillar Button",
+      "block.amethystia.polished_amethyst_slab": "Polished Amethyst Slab",
+      "block.amethystia.amethyst_tiles": "Amethyst Tiles",
+      "block.amethystia.cracked_amethyst_tiles_stairs": "Cracked Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_tiles_slab": "Amethyst Tiles Slab",
+      "itemGroup.tabamethystia_blocks": "Amethystia Blocks",
+      "block.amethystia.cracked_amethyst_tiles": "Cracked Amethyst Tiles",
+      "block.amethystia.cracked_amethyst_tiles_slab": "Cracked Amethyst Tiles Slab",
+      "block.amethystia.mossy_amethyst_bricks_stairs": "Mossy Amethyst Bricks Stairs",
+      "block.amethystia.amethyst_block_wall": "Amethyst Block Wall",
+      "block.amethystia.amethyst_bricks_pressure_plate": "Amethyst Bricks Pressure Plate",
+      "block.amethystia.amethyst_bricks_slab": "Amethyst Bricks Slab"
     },
     "uk_ua": {
-      "block.amethystia.amethystpillar": "Amethyst pillar",
-      "block.amethystia.polishedamethyst": "Polished amethyst",
-      "block.amethystia.crackedpolishedamethyst": "Cracked polished amethyst",
-      "block.amethystia.amethystglass": "Аметистове скло",
+      "block.amethystia.amethyst_pillar_wall": "Amethyst Pillar Wall",
+      "block.amethystia.mossy_amethyst_bricks": "Mossy Amethyst Bricks",
+      "block.amethystia.amethyst_glass": "Amethyst Glass",
+      "itemGroup.tabamethystia_items": "Amethystia Items",
+      "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
+      "block.amethystia.amethyst_pillar_stairs": "Amethyst Pillar Stairs",
+      "block.amethystia.amethyst_block_pressure_plate": "Amethyst Block Pressure Plate",
+      "block.amethystia.cracked_polished_amethyst_slab": "Cracked Polished Amethyst Slab",
+      "block.amethystia.mossy_amethyst_tiles": "Mossy Amethyst Tiles",
+      "itemGroup.tabamethystia_redstone": "Amethystia Redstone",
+      "block.amethystia.amethyst_tiles_stairs": "Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_tiles_pressure_plate": "Amethyst Tiles Pressure Plate",
+      "block.amethystia.polished_amethyst_button": "Polished Amethyst Button",
+      "block.amethystia.amethyst_pillar": "Amethyst Pillar",
+      "block.amethystia.amethyst_pillar_slab": "Amethyst Pillar Slab",
+      "block.amethystia.amethyst_bricks_stairs": "Amethyst Bricks Stairs",
+      "block.amethystia.cracked_polished_amethyst_wall": "Cracked Polished Amethyst Wall",
+      "block.amethystia.amethyst_tiles_button": "Amethyst Tiles Button",
+      "block.amethystia.mossy_amethyst_bricks_slab": "Mossy Amethyst Bricks Slab",
       "block.amethystia.amethyst_bricks": "Amethyst Bricks",
-      "block.amethystia.amethysttiles": "Amethyst tiles",
-      "block.amethystia.mossyamethystbricks": "Mossy amethyst bricks",
-      "block.amethystia.amethystlamp": "Amethyst lamp",
-      "block.amethystia.mossyamethysttiles": "Mossy amethyst tiles",
-      "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
-      "itemGroup.tabamethystia": "Аметистія"
+      "block.amethystia.cracked_amethyst_tiles_wall": "Cracked Amethyst Tiles Wall",
+      "block.amethystia.amethyst_tiles_wall": "Amethyst Tiles Wall",
+      "block.amethystia.mossy_amethyst_bricks_wall": "Mossy Amethyst Bricks Wall",
+      "block.amethystia.mossy_amethyst_tiles_wall": "Mossy Amethyst Tiles Wall",
+      "block.amethystia.amethyst_block_stairs": "Amethyst Block Stairs",
+      "block.amethystia.polished_amethyst": "Polished Amethyst",
+      "block.amethystia.polished_amethyst_pressure_plate": "Polished Amethyst Pressure Plate",
+      "block.amethystia.amethyst_pillar_pressure_plate": "Amethyst Pillar Pressure Plate",
+      "block.amethystia.amethyst_block_button": "Amethyst Block Button",
+      "block.amethystia.cracked_polished_amethyst_stairs": "Cracked Polished Amethyst Stairs",
+      "block.amethystia.polished_amethyst_stairs": "Polished Amethyst Stairs",
+      "block.amethystia.amethyst_lamp": "Amethyst Lamp",
+      "block.amethystia.amethyst_block_slab": "Amethyst Block Slab",
+      "block.amethystia.polished_amethyst_wall": "Polished Amethyst Wall",
+      "block.amethystia.mossy_amethyst_tiles_stairs": "Mossy Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_bricks_wall": "Amethyst Bricks Wall",
+      "block.amethystia.amethyst_glass_pane": "Amethyst Glass Pane",
+      "block.amethystia.amethyst_bricks_button": "Amethyst Bricks Button",
+      "block.amethystia.cracked_polished_amethyst": "Cracked Polished Amethyst",
+      "block.amethystia.amethyst_pillar_button": "Amethyst Pillar Button",
+      "block.amethystia.polished_amethyst_slab": "Polished Amethyst Slab",
+      "block.amethystia.amethyst_tiles": "Amethyst Tiles",
+      "block.amethystia.cracked_amethyst_tiles_stairs": "Cracked Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_tiles_slab": "Amethyst Tiles Slab",
+      "itemGroup.tabamethystia_blocks": "Amethystia Blocks",
+      "block.amethystia.cracked_amethyst_tiles": "Cracked Amethyst Tiles",
+      "block.amethystia.cracked_amethyst_tiles_slab": "Cracked Amethyst Tiles Slab",
+      "block.amethystia.mossy_amethyst_bricks_stairs": "Mossy Amethyst Bricks Stairs",
+      "block.amethystia.amethyst_block_wall": "Amethyst Block Wall",
+      "block.amethystia.amethyst_bricks_pressure_plate": "Amethyst Bricks Pressure Plate",
+      "block.amethystia.amethyst_bricks_slab": "Amethyst Bricks Slab"
     },
     "cs_cz": {
-      "block.amethystia.amethystpillar": "Amethyst pillar",
-      "block.amethystia.polishedamethyst": "Polished amethyst",
-      "block.amethystia.crackedpolishedamethyst": "Cracked polished amethyst",
-      "block.amethystia.amethystglass": "Amethyst glass",
+      "block.amethystia.amethyst_pillar_wall": "Amethyst Pillar Wall",
+      "block.amethystia.mossy_amethyst_bricks": "Mossy Amethyst Bricks",
+      "block.amethystia.amethyst_glass": "Amethyst Glass",
+      "itemGroup.tabamethystia_items": "Amethystia Items",
+      "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
+      "block.amethystia.amethyst_pillar_stairs": "Amethyst Pillar Stairs",
+      "block.amethystia.amethyst_block_pressure_plate": "Amethyst Block Pressure Plate",
+      "block.amethystia.cracked_polished_amethyst_slab": "Cracked Polished Amethyst Slab",
+      "block.amethystia.mossy_amethyst_tiles": "Mossy Amethyst Tiles",
+      "itemGroup.tabamethystia_redstone": "Amethystia Redstone",
+      "block.amethystia.amethyst_tiles_stairs": "Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_tiles_pressure_plate": "Amethyst Tiles Pressure Plate",
+      "block.amethystia.polished_amethyst_button": "Polished Amethyst Button",
+      "block.amethystia.amethyst_pillar": "Amethyst Pillar",
+      "block.amethystia.amethyst_pillar_slab": "Amethyst Pillar Slab",
+      "block.amethystia.amethyst_bricks_stairs": "Amethyst Bricks Stairs",
+      "block.amethystia.cracked_polished_amethyst_wall": "Cracked Polished Amethyst Wall",
+      "block.amethystia.amethyst_tiles_button": "Amethyst Tiles Button",
+      "block.amethystia.mossy_amethyst_bricks_slab": "Mossy Amethyst Bricks Slab",
       "block.amethystia.amethyst_bricks": "Amethyst Bricks",
-      "block.amethystia.amethysttiles": "Amethyst tiles",
-      "block.amethystia.mossyamethystbricks": "Mossy amethyst bricks",
-      "block.amethystia.amethystlamp": "Amethyst lamp",
-      "block.amethystia.mossyamethysttiles": "Mossy amethyst tiles",
-      "block.amethystia.crackedamethysttiles": "Cracked amethyst tiles",
-      "itemGroup.tabamethystia": "Amethystia"
+      "block.amethystia.cracked_amethyst_tiles_wall": "Cracked Amethyst Tiles Wall",
+      "block.amethystia.amethyst_tiles_wall": "Amethyst Tiles Wall",
+      "block.amethystia.mossy_amethyst_bricks_wall": "Mossy Amethyst Bricks Wall",
+      "block.amethystia.mossy_amethyst_tiles_wall": "Mossy Amethyst Tiles Wall",
+      "block.amethystia.amethyst_block_stairs": "Amethyst Block Stairs",
+      "block.amethystia.polished_amethyst": "Polished Amethyst",
+      "block.amethystia.polished_amethyst_pressure_plate": "Polished Amethyst Pressure Plate",
+      "block.amethystia.amethyst_pillar_pressure_plate": "Amethyst Pillar Pressure Plate",
+      "block.amethystia.amethyst_block_button": "Amethyst Block Button",
+      "block.amethystia.cracked_polished_amethyst_stairs": "Cracked Polished Amethyst Stairs",
+      "block.amethystia.polished_amethyst_stairs": "Polished Amethyst Stairs",
+      "block.amethystia.amethyst_lamp": "Amethyst Lamp",
+      "block.amethystia.amethyst_block_slab": "Amethyst Block Slab",
+      "block.amethystia.polished_amethyst_wall": "Polished Amethyst Wall",
+      "block.amethystia.mossy_amethyst_tiles_stairs": "Mossy Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_bricks_wall": "Amethyst Bricks Wall",
+      "block.amethystia.amethyst_glass_pane": "Amethyst Glass Pane",
+      "block.amethystia.amethyst_bricks_button": "Amethyst Bricks Button",
+      "block.amethystia.cracked_polished_amethyst": "Cracked Polished Amethyst",
+      "block.amethystia.amethyst_pillar_button": "Amethyst Pillar Button",
+      "block.amethystia.polished_amethyst_slab": "Polished Amethyst Slab",
+      "block.amethystia.amethyst_tiles": "Amethyst Tiles",
+      "block.amethystia.cracked_amethyst_tiles_stairs": "Cracked Amethyst Tiles Stairs",
+      "block.amethystia.amethyst_tiles_slab": "Amethyst Tiles Slab",
+      "itemGroup.tabamethystia_blocks": "Amethystia Blocks",
+      "block.amethystia.cracked_amethyst_tiles": "Cracked Amethyst Tiles",
+      "block.amethystia.cracked_amethyst_tiles_slab": "Cracked Amethyst Tiles Slab",
+      "block.amethystia.mossy_amethyst_bricks_stairs": "Mossy Amethyst Bricks Stairs",
+      "block.amethystia.amethyst_block_wall": "Amethyst Block Wall",
+      "block.amethystia.amethyst_bricks_pressure_plate": "Amethyst Bricks Pressure Plate",
+      "block.amethystia.amethyst_bricks_slab": "Amethyst Bricks Slab"
     }
   },
   "foldersRoot": {
@@ -222,7 +1067,7 @@
     "modid": "amethystia",
     "modName": "Amethystia",
     "version": "1.0.0",
-    "author": "EUGENE, Hnufelka",
+    "author": "MEGATREX4, hnufelka",
     "websiteURL": "https://discord.gg/NTtMzrbZ",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

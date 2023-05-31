@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "amethystia:blocks/polished_amethyst",
+    "particle": "amethystia:blocks/polished_amethyst"
+  },
+  "render_type": "solid"
+}

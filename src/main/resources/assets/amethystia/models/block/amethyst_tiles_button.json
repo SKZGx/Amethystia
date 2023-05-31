@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "amethystia:blocks/amethyst_tiles"
+  },
+  "render_type": "solid"
+}

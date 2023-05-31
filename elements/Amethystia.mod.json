@@ -2,9 +2,9 @@
   "_fv": 39,
   "_type": "tab",
   "definition": {
-    "name": "Amethystia",
+    "name": "Amethystia Blocks",
     "icon": {
-      "value": "Items.AMETHYST_SHARD"
+      "value": "CUSTOM:Amethystbricks"
     },
     "showSearch": false
   }

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "amethystia:block/amethyst_pillar_slab"
+    },
+    "type=top": {
+      "model": "amethystia:block/amethyst_pillar_slab_top"
+    },
+    "type=double": {
+      "model": "amethystia:block/amethyst_pillar_slab_full"
+    }
+  }
+}

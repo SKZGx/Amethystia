@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "amethystia:blocks/cracked_amethyst_tiles",
+    "top": "amethystia:blocks/cracked_amethyst_tiles",
+    "side": "amethystia:blocks/cracked_amethyst_tiles"
+  },
+  "render_type": "solid"
+}
