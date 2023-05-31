@@ -3,9 +3,10 @@
     {
       "name": "Amethystia",
       "type": "tab",
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amethystia",
+      "registry_name": "amethystia_blocks",
       "metadata": {
         "files": []
       }
@@ -871,6 +872,28 @@
           "src/main/resources/assets/amethystia/models/block/polished_amethyst_pressure_plate.json"
         ]
       }
+    },
+    {
+      "name": "AmethystiaRedstone",
+      "type": "tab",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystia_redstone",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AmethystiaItems",
+      "type": "tab",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethystia_items",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -878,13 +901,15 @@
   "language_map": {
     "en_us": {
       "block.amethystia.amethyst_pillar_wall": "Amethyst Pillar Wall",
-      "block.amethystia.amethyst_glass": "Amethyst Glass",
       "block.amethystia.mossy_amethyst_bricks": "Mossy Amethyst Bricks",
+      "block.amethystia.amethyst_glass": "Amethyst Glass",
+      "itemGroup.tabamethystia_items": "Amethystia Items",
       "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
       "block.amethystia.amethyst_pillar_stairs": "Amethyst Pillar Stairs",
       "block.amethystia.amethyst_block_pressure_plate": "Amethyst Block Pressure Plate",
       "block.amethystia.cracked_polished_amethyst_slab": "Cracked Polished Amethyst Slab",
       "block.amethystia.mossy_amethyst_tiles": "Mossy Amethyst Tiles",
+      "itemGroup.tabamethystia_redstone": "Amethystia Redstone",
       "block.amethystia.amethyst_tiles_stairs": "Amethyst Tiles Stairs",
       "block.amethystia.amethyst_tiles_pressure_plate": "Amethyst Tiles Pressure Plate",
       "block.amethystia.polished_amethyst_button": "Polished Amethyst Button",
@@ -903,7 +928,6 @@
       "block.amethystia.polished_amethyst": "Polished Amethyst",
       "block.amethystia.polished_amethyst_pressure_plate": "Polished Amethyst Pressure Plate",
       "block.amethystia.amethyst_pillar_pressure_plate": "Amethyst Pillar Pressure Plate",
-      "itemGroup.tabamethystia": "Amethystia Blocks",
       "block.amethystia.amethyst_block_button": "Amethyst Block Button",
       "block.amethystia.cracked_polished_amethyst_stairs": "Cracked Polished Amethyst Stairs",
       "block.amethystia.polished_amethyst_stairs": "Polished Amethyst Stairs",
@@ -920,6 +944,7 @@
       "block.amethystia.amethyst_tiles": "Amethyst Tiles",
       "block.amethystia.cracked_amethyst_tiles_stairs": "Cracked Amethyst Tiles Stairs",
       "block.amethystia.amethyst_tiles_slab": "Amethyst Tiles Slab",
+      "itemGroup.tabamethystia_blocks": "Amethystia Blocks",
       "block.amethystia.cracked_amethyst_tiles": "Cracked Amethyst Tiles",
       "block.amethystia.cracked_amethyst_tiles_slab": "Cracked Amethyst Tiles Slab",
       "block.amethystia.mossy_amethyst_bricks_stairs": "Mossy Amethyst Bricks Stairs",
@@ -929,13 +954,15 @@
     },
     "uk_ua": {
       "block.amethystia.amethyst_pillar_wall": "Amethyst Pillar Wall",
-      "block.amethystia.amethyst_glass": "Amethyst Glass",
       "block.amethystia.mossy_amethyst_bricks": "Mossy Amethyst Bricks",
+      "block.amethystia.amethyst_glass": "Amethyst Glass",
+      "itemGroup.tabamethystia_items": "Amethystia Items",
       "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
       "block.amethystia.amethyst_pillar_stairs": "Amethyst Pillar Stairs",
       "block.amethystia.amethyst_block_pressure_plate": "Amethyst Block Pressure Plate",
       "block.amethystia.cracked_polished_amethyst_slab": "Cracked Polished Amethyst Slab",
       "block.amethystia.mossy_amethyst_tiles": "Mossy Amethyst Tiles",
+      "itemGroup.tabamethystia_redstone": "Amethystia Redstone",
       "block.amethystia.amethyst_tiles_stairs": "Amethyst Tiles Stairs",
       "block.amethystia.amethyst_tiles_pressure_plate": "Amethyst Tiles Pressure Plate",
       "block.amethystia.polished_amethyst_button": "Polished Amethyst Button",
@@ -954,7 +981,6 @@
       "block.amethystia.polished_amethyst": "Polished Amethyst",
       "block.amethystia.polished_amethyst_pressure_plate": "Polished Amethyst Pressure Plate",
       "block.amethystia.amethyst_pillar_pressure_plate": "Amethyst Pillar Pressure Plate",
-      "itemGroup.tabamethystia": "Аметистія",
       "block.amethystia.amethyst_block_button": "Amethyst Block Button",
       "block.amethystia.cracked_polished_amethyst_stairs": "Cracked Polished Amethyst Stairs",
       "block.amethystia.polished_amethyst_stairs": "Polished Amethyst Stairs",
@@ -971,6 +997,7 @@
       "block.amethystia.amethyst_tiles": "Amethyst Tiles",
       "block.amethystia.cracked_amethyst_tiles_stairs": "Cracked Amethyst Tiles Stairs",
       "block.amethystia.amethyst_tiles_slab": "Amethyst Tiles Slab",
+      "itemGroup.tabamethystia_blocks": "Amethystia Blocks",
       "block.amethystia.cracked_amethyst_tiles": "Cracked Amethyst Tiles",
       "block.amethystia.cracked_amethyst_tiles_slab": "Cracked Amethyst Tiles Slab",
       "block.amethystia.mossy_amethyst_bricks_stairs": "Mossy Amethyst Bricks Stairs",
@@ -980,13 +1007,15 @@
     },
     "cs_cz": {
       "block.amethystia.amethyst_pillar_wall": "Amethyst Pillar Wall",
-      "block.amethystia.amethyst_glass": "Amethyst Glass",
       "block.amethystia.mossy_amethyst_bricks": "Mossy Amethyst Bricks",
+      "block.amethystia.amethyst_glass": "Amethyst Glass",
+      "itemGroup.tabamethystia_items": "Amethystia Items",
       "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
       "block.amethystia.amethyst_pillar_stairs": "Amethyst Pillar Stairs",
       "block.amethystia.amethyst_block_pressure_plate": "Amethyst Block Pressure Plate",
       "block.amethystia.cracked_polished_amethyst_slab": "Cracked Polished Amethyst Slab",
       "block.amethystia.mossy_amethyst_tiles": "Mossy Amethyst Tiles",
+      "itemGroup.tabamethystia_redstone": "Amethystia Redstone",
       "block.amethystia.amethyst_tiles_stairs": "Amethyst Tiles Stairs",
       "block.amethystia.amethyst_tiles_pressure_plate": "Amethyst Tiles Pressure Plate",
       "block.amethystia.polished_amethyst_button": "Polished Amethyst Button",
@@ -1005,7 +1034,6 @@
       "block.amethystia.polished_amethyst": "Polished Amethyst",
       "block.amethystia.polished_amethyst_pressure_plate": "Polished Amethyst Pressure Plate",
       "block.amethystia.amethyst_pillar_pressure_plate": "Amethyst Pillar Pressure Plate",
-      "itemGroup.tabamethystia": "Amethystia",
       "block.amethystia.amethyst_block_button": "Amethyst Block Button",
       "block.amethystia.cracked_polished_amethyst_stairs": "Cracked Polished Amethyst Stairs",
       "block.amethystia.polished_amethyst_stairs": "Polished Amethyst Stairs",
@@ -1022,6 +1050,7 @@
       "block.amethystia.amethyst_tiles": "Amethyst Tiles",
       "block.amethystia.cracked_amethyst_tiles_stairs": "Cracked Amethyst Tiles Stairs",
       "block.amethystia.amethyst_tiles_slab": "Amethyst Tiles Slab",
+      "itemGroup.tabamethystia_blocks": "Amethystia Blocks",
       "block.amethystia.cracked_amethyst_tiles": "Cracked Amethyst Tiles",
       "block.amethystia.cracked_amethyst_tiles_slab": "Cracked Amethyst Tiles Slab",
       "block.amethystia.mossy_amethyst_bricks_stairs": "Mossy Amethyst Bricks Stairs",
