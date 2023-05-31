@@ -1,9 +1,9 @@
 {
   "block.amethystia.amethyst_pillar_wall": "Amethyst Pillar Wall",
-  "block.amethystia.amethyst_glass": "Amethyst Glass",
   "block.amethystia.mossy_amethyst_bricks": "Mossy Amethyst Bricks",
-  "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
+  "block.amethystia.amethyst_glass": "Amethyst Glass",
   "itemGroup.tabamethystia_items": "Amethystia Items",
+  "block.amethystia.mossy_amethyst_tiles_slab": "Mossy Amethyst Tiles Slab",
   "block.amethystia.amethyst_pillar_stairs": "Amethyst Pillar Stairs",
   "block.amethystia.amethyst_block_pressure_plate": "Amethyst Block Pressure Plate",
   "block.amethystia.cracked_polished_amethyst_slab": "Cracked Polished Amethyst Slab",
